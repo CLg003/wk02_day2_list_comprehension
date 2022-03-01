@@ -6,3 +6,5 @@ print(odd_ages)
 chickens = ["Hen Solo", "Cluck Norris", "Hennifer Lopez", "ChewPekka", "Feather Locklear"]
 long_chicken_names = [chicken for chicken in chickens if len(chicken) >10 ]
 print(long_chicken_names)
+h_chicken_names = [chicken for chicken in chickens if chicken[0].lower() == "h"]
+print(h_chicken_names)
